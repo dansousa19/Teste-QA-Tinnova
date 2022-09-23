@@ -23,4 +23,8 @@ public class Metodos extends Browsers {
 		}
 		
 	}
+
+	public void close() {
+		driver.quit();
+	}
 }

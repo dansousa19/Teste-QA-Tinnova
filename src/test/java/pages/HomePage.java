@@ -55,6 +55,8 @@ public class HomePage {
 		}else if(menu.equalsIgnoreCase("btnGuardar")) {
 			Thread.sleep(1200);
 			metodos.clicar(btnGuardar);
+			Thread.sleep(1200);
+			metodos.close();
 		}
 	}
 }
